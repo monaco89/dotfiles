@@ -81,8 +81,8 @@ brew install composer yarn
 brew install node
 
 # Git configurations
-git config --global user.name "Nick Monaco"
-#git config --global user.email "your_email@youremail.com"
+#git config --global user.name
+#git config --global user.email
 #git config --global credential.helper osxkeychain
 git config --global color.ui auto
 
