@@ -1,0 +1,13 @@
+{
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.activityBar.visible": true,
+    "window.zoomLevel": 0,
+    "material-icon-theme.showUpdateMessage": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true
+}
