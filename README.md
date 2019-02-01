@@ -1,4 +1,4 @@
-# buildmac
+# dotfiles
 
 ## TODO
 * VSCode config
