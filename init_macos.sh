@@ -33,6 +33,8 @@ brew install git
 brew install python
 brew install python3
 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
 pip install --upgrade setuptools
 pip install --upgrade pip
 
@@ -59,12 +61,6 @@ brew cask install visual-studio-code
 
 # Iterm2
 brew cask install iterm2
-
-# Appcleaner
-
-# 1Password
-
-# SuperDuper
 
 # Bash git-prompt
 brew install bash-git-prompt
