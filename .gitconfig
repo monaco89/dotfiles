@@ -1,0 +1,24 @@
+[push]
+	default = simple
+[color]
+	ui = auto
+[alias]
+	outgoing = log --branches --not --remotes=origin
+	untracked = ls-files --others --exclude-standard
+	s = status -su
+	todo = "! git diff HEAD^ HEAD | grep '^+.*TODO\\|b/' | grep -B 1 TODO | sed 's/[+-]//g;s/^[ \\t]*//;s/b\\///g;s/\\/\\///g'"
+	bc = ! git branch | grep -v 'master\\|dev\\|\\*' | xargs git branch -d
+	co = checkout
+	ucommit = reset HEAD^
+	last = log --name-status -1 HEAD
+	cherryx = cherry-pick -x
+	logtree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+[credential]
+	helper = store
+[web]
+	browser = chrome
+[help]
+	browser = chrome
+	format = web
+[core]
+	editor = nano
