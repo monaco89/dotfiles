@@ -5,3 +5,4 @@
 * VSCode settings
 * Iterm Settings
 * .bash_profile
+* .gitconfig
