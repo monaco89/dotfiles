@@ -8,6 +8,13 @@ fi
 
 alias ls='ls -G'
 alias ll='ls -lG'
+alias gs='git status '
+alias ga='git add '
+alias gaa='git add -A '
+alias gb='git branch '
+alias gc='git commit '
+alias gcm='git commit -m '
+alias go='git checkout '
 
 
 export PATH="$PATH:/Applications/DevDesktop/tools"
