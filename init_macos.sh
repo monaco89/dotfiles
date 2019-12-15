@@ -116,3 +116,12 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # TODO https://github.com/zsh-users/zsh-completions
 # TODO https://github.com/djui/alias-tips
 
+echo "prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    # Custom (Random emoji)
+    emojis=(" ️" "🔥" "💀" "👑" "😎" "🐸" "🐵" "🦄" "🌈" "🍻" "🚀" "💡" "🎉" "🔑" "🇹🇭" "🚦" "🌙")
+    RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))
+    prompt_segment black default "${emojis[$RAND_EMOJI_N]} %(!.%{%F{yellow}%}.)$USER"
+  fi
+}" >> ~/.zshrc
+
