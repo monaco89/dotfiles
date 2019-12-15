@@ -125,3 +125,21 @@ echo "prompt_context() {
   fi
 }" >> ~/.zshrc
 
+# Install python 3.x
+brew install pyenv
+brew install zlib
+brew install python
+# Install pipx to manage global packages
+python3 -m pip install --user pipx
+python3 -m userpath append ~/.local/bin
+# Install global packages
+python3 -m pipx install flake8
+python3 -m pipx install black
+# (Really optional, only to protect system python from mistakes)
+brew install python@2
+
+pyenv install 3.7.3
+pyenv global 3.7.3
+
+ echo "alias python=/usr/local/bin/python3.7" >> ~/.zshrc
+
