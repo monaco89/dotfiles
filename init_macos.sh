@@ -89,3 +89,29 @@ curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.giti
 git clone https://github.com/square/maximum-awesome.git
 cd maximum-awesome
 rake
+
+# ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# https://github.com/agnoster/agnoster-zsh-theme
+# TODO Change .zshrc line to ZSH_THEME="agnoster"
+# install powerlines/f
+# clone
+cd ~/
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+
+# or https://medium.com/@genealabs/agnoster-theme-on-os-x-391d60effaf6
+
+brew install zsh-syntax-highlighting
+
+echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+
+# https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+
+# TODO https://github.com/zsh-users/zsh-completions
+
