@@ -114,4 +114,5 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
 
 # TODO https://github.com/zsh-users/zsh-completions
+# TODO https://github.com/djui/alias-tips
 
