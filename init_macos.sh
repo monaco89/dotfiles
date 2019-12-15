@@ -141,5 +141,8 @@ brew install python@2
 pyenv install 3.7.3
 pyenv global 3.7.3
 
- echo "alias python=/usr/local/bin/python3.7" >> ~/.zshrc
+echo "alias python=/usr/local/bin/python3.7" >> ~/.zshrc
+
+# install poetry
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 
