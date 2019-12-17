@@ -147,7 +147,7 @@ echo "alias python=/usr/local/bin/python3.7" >> ~/.zshrc
 curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 
 # TODO Fix
-poetry config settings.virtualenvs.in-project true
+poetry config virtualenvs.in-project true
 
 echo "# pipx
 export PATH="~/.local/bin:$PATH"
