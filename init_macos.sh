@@ -184,3 +184,6 @@ brew install tmux
 
 # Serverless
 npm install -g serverless
+
+# gatsby cli
+npm install -g gatsby-cli
