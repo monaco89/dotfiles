@@ -13,6 +13,7 @@
 	last = log --name-status -1 HEAD
 	cherryx = cherry-pick -x
 	logtree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+	dm = ! git branch --merged master --no-color | grep -v master | grep -v demo | xargs git branch -d
 [credential]
 	helper = store
 [web]
