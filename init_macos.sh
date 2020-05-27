@@ -170,3 +170,14 @@ gpip(){
 gpip3(){
    PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }" >> ~/.zshrc
+
+# MongoDB
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
+
+# tmux
+brew install tmux
+
+# Serverless
+npm install -g serverless

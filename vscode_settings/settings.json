@@ -1,13 +1,35 @@
 {
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.activityBar.visible": true,
-    "window.zoomLevel": 0,
-    "material-icon-theme.showUpdateMessage": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": true,
+  "window.zoomLevel": 0,
+  "material-icon-theme.showUpdateMessage": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 120,
+  "sync.autoUpload": true,
+  "sync.gist": "5f46e383b58211f51b5545fd1e6013a0",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "editor.minimap.maxColumn": 80,
+  "search.showLineNumbers": true,
+  "search.smartCase": true,
+  "debug.inlineValues": true,
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false,
+  "sync.forceUpload": true,
+  "files.associations": {
+    "*.inc": "php"
+  },
+  "workbench.colorTheme": "Noctis Obscuro",
+  "python.formatting.provider": "black",
+  "go.formatTool": "goformat"
 }

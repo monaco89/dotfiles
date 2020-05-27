@@ -7,7 +7,17 @@
     },
     "name": "better-comments",
     "publisher": "aaron-bond",
-    "version": "2.0.3"
+    "version": "2.0.5"
+  },
+  {
+    "metadata": {
+      "id": "464f4ac7-af65-4aa9-9907-4ba7fa419085",
+      "publisherId": "bungcip.better-toml",
+      "publisherDisplayName": "bungcip"
+    },
+    "name": "better-toml",
+    "publisher": "bungcip",
+    "version": "0.3.2"
   },
   {
     "metadata": {
@@ -21,13 +31,33 @@
   },
   {
     "metadata": {
+      "id": "a6a0c5b2-d078-4bf5-a9ee-4e37054414b3",
+      "publisherId": "formulahendry.code-runner",
+      "publisherDisplayName": "formulahendry"
+    },
+    "name": "code-runner",
+    "publisher": "formulahendry",
+    "version": "0.10.0"
+  },
+  {
+    "metadata": {
       "id": "e337c67b-55c2-4fef-8949-eb260e7fb7fd",
       "publisherId": "Shan.code-settings-sync",
       "publisherDisplayName": "Shan"
     },
     "name": "code-settings-sync",
     "publisher": "Shan",
-    "version": "3.2.4"
+    "version": "3.4.3"
+  },
+  {
+    "metadata": {
+      "id": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7",
+      "publisherId": "streetsidesoftware.code-spell-checker",
+      "publisherDisplayName": "streetsidesoftware"
+    },
+    "name": "code-spell-checker",
+    "publisher": "streetsidesoftware",
+    "version": "1.9.0"
   },
   {
     "metadata": {
@@ -57,7 +87,7 @@
     },
     "name": "debugger-for-chrome",
     "publisher": "msjsdiag",
-    "version": "4.11.1"
+    "version": "4.12.7"
   },
   {
     "metadata": {
@@ -77,7 +107,7 @@
     },
     "name": "EditorConfig",
     "publisher": "EditorConfig",
-    "version": "0.12.7"
+    "version": "0.14.5"
   },
   {
     "metadata": {
@@ -87,7 +117,7 @@
     },
     "name": "githistory",
     "publisher": "donjayamanne",
-    "version": "0.4.4"
+    "version": "0.6.5"
   },
   {
     "metadata": {
@@ -107,7 +137,17 @@
     },
     "name": "gitlens",
     "publisher": "eamodio",
-    "version": "9.4.1"
+    "version": "10.2.1"
+  },
+  {
+    "metadata": {
+      "id": "d6f6cfea-4b6f-41f4-b571-6ad2ab7918da",
+      "publisherId": "ms-vscode.Go",
+      "publisherDisplayName": "ms-vscode"
+    },
+    "name": "Go",
+    "publisher": "ms-vscode",
+    "version": "0.14.2"
   },
   {
     "metadata": {
@@ -117,17 +157,17 @@
     },
     "name": "graphql-for-vscode",
     "publisher": "kumar-harsh",
-    "version": "1.13.0"
+    "version": "1.15.3"
   },
   {
     "metadata": {
-      "id": "a2cec723-5349-460d-9de9-0fd1f8d3456f",
-      "publisherId": "xabikos.JavaScriptSnippets",
-      "publisherDisplayName": "xabikos"
+      "id": "98790d67-10fa-497c-9113-f6c7489207b2",
+      "publisherId": "yzhang.markdown-all-in-one",
+      "publisherDisplayName": "yzhang"
     },
-    "name": "JavaScriptSnippets",
-    "publisher": "xabikos",
-    "version": "1.7.2"
+    "name": "markdown-all-in-one",
+    "publisher": "yzhang",
+    "version": "2.8.0"
   },
   {
     "metadata": {
@@ -137,27 +177,27 @@
     },
     "name": "material-icon-theme",
     "publisher": "PKief",
-    "version": "3.6.2"
+    "version": "4.1.0"
   },
   {
     "metadata": {
       "id": "26a529c9-2654-4b95-a63f-02f6a52429e6",
-      "publisherId": "zhuangtongfa.Material-theme",
+      "publisherId": "zhuangtongfa.material-theme",
       "publisherDisplayName": "zhuangtongfa"
     },
-    "name": "Material-theme",
+    "name": "material-theme",
     "publisher": "zhuangtongfa",
-    "version": "2.18.1"
+    "version": "3.7.0"
   },
   {
     "metadata": {
-      "id": "4bf45e86-a448-4531-8c01-ef33f4536306",
-      "publisherId": "ms-mssql.mssql",
-      "publisherDisplayName": "ms-mssql"
+      "id": "d4e2a48f-0b88-4540-92c5-a4ab4dd2c813",
+      "publisherId": "liviuschera.noctis",
+      "publisherDisplayName": "liviuschera"
     },
-    "name": "mssql",
-    "publisher": "ms-mssql",
-    "version": "1.4.0"
+    "name": "noctis",
+    "publisher": "liviuschera",
+    "version": "10.29.1"
   },
   {
     "metadata": {
@@ -167,7 +207,7 @@
     },
     "name": "path-autocomplete",
     "publisher": "ionutvmi",
-    "version": "1.13.1"
+    "version": "1.13.6"
   },
   {
     "metadata": {
@@ -177,27 +217,37 @@
     },
     "name": "php-debug",
     "publisher": "felixfbecker",
-    "version": "1.12.6"
+    "version": "1.13.0"
   },
   {
     "metadata": {
-      "id": "abb64c53-a889-4dd0-858b-641e841b3f10",
-      "publisherId": "leveluptutorials.react-apollo-snippets",
-      "publisherDisplayName": "leveluptutorials"
+      "id": "96fa4707-6983-4489-b7c5-d5ffdfdcce90",
+      "publisherId": "esbenp.prettier-vscode",
+      "publisherDisplayName": "esbenp"
     },
-    "name": "react-apollo-snippets",
-    "publisher": "leveluptutorials",
-    "version": "0.0.2"
+    "name": "prettier-vscode",
+    "publisher": "esbenp",
+    "version": "4.7.0"
   },
   {
     "metadata": {
-      "id": "c807e072-5951-4a01-9542-450f946c7ec1",
-      "publisherId": "xabikos.ReactSnippets",
-      "publisherDisplayName": "xabikos"
+      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+      "publisherId": "ms-python.python",
+      "publisherDisplayName": "ms-python"
     },
-    "name": "ReactSnippets",
-    "publisher": "xabikos",
-    "version": "2.3.0"
+    "name": "python",
+    "publisher": "ms-python",
+    "version": "2020.5.80290"
+  },
+  {
+    "metadata": {
+      "id": "3792588c-3d35-442d-91ea-fe6a755e8155",
+      "publisherId": "mechatroner.rainbow-csv",
+      "publisherDisplayName": "mechatroner"
+    },
+    "name": "rainbow-csv",
+    "publisher": "mechatroner",
+    "version": "1.7.0"
   },
   {
     "metadata": {
@@ -221,33 +271,53 @@
   },
   {
     "metadata": {
+      "id": "946d9406-d60f-4a31-b6d8-81604e06dd72",
+      "publisherId": "marcostazi.VS-code-drupal",
+      "publisherDisplayName": "marcostazi"
+    },
+    "name": "VS-code-drupal",
+    "publisher": "marcostazi",
+    "version": "0.0.12"
+  },
+  {
+    "metadata": {
+      "id": "484d897a-6711-403c-ab54-a96f12be5833",
+      "publisherId": "Equinusocio.vsc-community-material-theme",
+      "publisherDisplayName": "Equinusocio"
+    },
+    "name": "vsc-community-material-theme",
+    "publisher": "Equinusocio",
+    "version": "1.4.1"
+  },
+  {
+    "metadata": {
       "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
       "publisherId": "Equinusocio.vsc-material-theme",
       "publisherDisplayName": "Equinusocio"
     },
     "name": "vsc-material-theme",
     "publisher": "Equinusocio",
-    "version": "2.6.3"
+    "version": "32.6.0"
   },
   {
     "metadata": {
-      "id": "d7b592dd-41c9-4f2b-acf3-055ae65e55c6",
-      "publisherId": "dzannotti.vscode-babel-coloring",
-      "publisherDisplayName": "dzannotti"
+      "id": "8c609a4f-268a-41fb-8fe6-b6fcd95e8113",
+      "publisherId": "equinusocio.vsc-material-theme-icons",
+      "publisherDisplayName": "equinusocio"
     },
-    "name": "vscode-babel-coloring",
-    "publisher": "dzannotti",
-    "version": "0.0.4"
+    "name": "vsc-material-theme-icons",
+    "publisher": "equinusocio",
+    "version": "1.1.4"
   },
   {
     "metadata": {
-      "id": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
-      "publisherId": "dbaeumer.vscode-eslint",
-      "publisherDisplayName": "dbaeumer"
+      "id": "0479fc1c-3d67-49f9-b087-fb9069afe48f",
+      "publisherId": "ms-azuretools.vscode-docker",
+      "publisherDisplayName": "ms-azuretools"
     },
-    "name": "vscode-eslint",
-    "publisher": "dbaeumer",
-    "version": "1.8.0"
+    "name": "vscode-docker",
+    "publisher": "ms-azuretools",
+    "version": "1.2.0"
   },
   {
     "metadata": {
@@ -257,17 +327,7 @@
     },
     "name": "vscode-html-css",
     "publisher": "ecmel",
-    "version": "0.2.0"
-  },
-  {
-    "metadata": {
-      "id": "ae9e3eb0-3357-4cc0-90ee-598d2d384757",
-      "publisherId": "eg2.vscode-npm-script",
-      "publisherDisplayName": "eg2"
-    },
-    "name": "vscode-npm-script",
-    "publisher": "eg2",
-    "version": "0.3.5"
+    "version": "0.2.3"
   },
   {
     "metadata": {
@@ -287,16 +347,6 @@
     },
     "name": "vscode-yaml",
     "publisher": "redhat",
-    "version": "0.2.1"
-  },
-  {
-    "metadata": {
-      "id": "0cb81da2-1880-4755-9995-0ae9cc728e20",
-      "publisherId": "DotJoshJohnson.xml",
-      "publisherDisplayName": "DotJoshJohnson"
-    },
-    "name": "xml",
-    "publisher": "DotJoshJohnson",
-    "version": "2.4.0"
+    "version": "0.8.0"
   }
 ]
