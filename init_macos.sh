@@ -187,3 +187,7 @@ npm install -g serverless
 
 # gatsby cli
 npm install -g gatsby-cli
+
+# cocoapods
+sudo gem install cocoapods
+pod setup
