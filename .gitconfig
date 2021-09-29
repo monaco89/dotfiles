@@ -14,6 +14,14 @@
 	cherryx = cherry-pick -x
 	logtree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 	dm = ! git branch --merged master --no-color | grep -v master | grep -v demo | xargs git branch -d
+	# Show the diff between the latest commit and the current state.
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+	# Commit all changes.
+	ca = !git add -A && git commit -av
+	# Switch to a branch, creating it if necessary.
+	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+	# List contributors with number of commits.
+	contributors = shortlog --summary --numbered
 [credential]
 	helper = store
 [web]
