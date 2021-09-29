@@ -2,7 +2,7 @@
 
 ## Files for setting up my MacOS
 
-* VSCode settings
-* Iterm Settings
-* .bash_profile
-* .gitconfig
+- MacOS packages installed via homebrew
+- VSCode settings
+- Iterm Settings
+- Git config
